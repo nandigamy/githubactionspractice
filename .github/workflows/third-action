@@ -1,0 +1,8 @@
+name: third_action
+on: workflow_dispatch
+jobs:
+  third-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greeting
+        run: echo "Hello world 3"
